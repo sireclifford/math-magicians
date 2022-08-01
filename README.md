@@ -44,7 +44,7 @@ Your app is ready to be deployed!
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/sireclifford)
+- GitHub: [@sireclifford](https://github.com/sireclifford)
 
 ## 🤝 Contributing
 
