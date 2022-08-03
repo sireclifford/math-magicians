@@ -1,35 +1,5 @@
-/* body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
-} */
-
 html {
-  /* border-box box model allows us to add padding and border to our elements without increasing their size */
   box-sizing: border-box;
-  /* A system font stack so things load nice and quick! */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 900;
@@ -39,18 +9,15 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
 body {
-  /* background-image: url("./topography.svg"),
-    linear-gradient(110deg, #f93d66, #6d47d9); */
   background-size: 340px, auto;
   min-height: calc(100vh - 100px);
   margin: 50px;
-  /* background: white; */
   background-attachment: fixed;
   letter-spacing: -1px;
 }
