@@ -11,7 +11,7 @@ html {
     "Apple Color Emoji",
     "Segoe UI Emoji",
     "Segoe UI Symbol";
-  font-weight: 900;
+  font-weight: 400;
   font-size: 10px;
   color: var(--black);
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
