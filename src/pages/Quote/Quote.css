@@ -1,0 +1,14 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  max-width: 1024px;
+  margin: 100px auto 0 auto;
+}
+
+p {
+  font-family: "Segoe UI Symbol", sans-serif;
+  font-size: 30px;
+  color: var(--black);
+}
