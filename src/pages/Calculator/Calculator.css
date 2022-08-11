@@ -1,0 +1,27 @@
+.calculator {
+  display: flex;
+  height: auto;
+  width: 100%;
+  max-width: 1024px;
+  margin: 100px auto 0 auto;
+  gap: 40px;
+}
+
+h1 {
+  align-self: flex-start;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--black);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.07);
+}

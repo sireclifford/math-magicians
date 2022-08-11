@@ -1,0 +1,53 @@
+.calculate {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 600px;
+  row-gap: 5px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.calculator-display {
+  display: grid;
+  grid-template-rows: 50px;
+}
+
+.calculator-display-value {
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 20px;
+  background-color: grey;
+  color: white;
+}
+
+.calculator-keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 50px);
+  gap: 5px;
+}
+
+.calculator-keypad-key {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 20px;
+  background-color: var(--yellow);
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
+
+.divide,
+.multiply,
+.subtract,
+.add {
+  background-color: orange;
+}
