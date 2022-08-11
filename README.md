@@ -2,6 +2,14 @@
 
 > Math Magicians is a web app created using ReactJs. It is a Single Page App (SPA) that allows users to make simple mathematical calculations and read a random math-related quote.
 
+## Live Server
+
+- Heroku
+`https://operate-figures.herokuapp.com/`
+
+- Netlify
+`https://magical-mousse-34bd21.netlify.app/`
+
 
 ## Built With
 
